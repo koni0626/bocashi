@@ -1,0 +1,6 @@
+cache2
+lock
+uploads/*
+cfg/*.weights
+client/*.jpg
+lock

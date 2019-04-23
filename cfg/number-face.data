@@ -1,0 +1,5 @@
+classes=2
+train  = /home/konishi/darknet/original/train.txt
+valid  = /home/konishi/darknet/original/test.txt
+names  = /home/konishi/darknet/original/cfg/my.names
+backup  = /home/konishi/darknet/original/backup
