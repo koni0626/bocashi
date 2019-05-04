@@ -403,6 +403,7 @@ class CstmYolo:
                     
                     #ぼかした画像を元画像に戻す
                     #img[o_top:o_bottom, o_left:o_right] = blur_area
+                os.remove(cache_file_name)
             
 
         # マスクと合成する

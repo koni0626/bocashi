@@ -10,7 +10,7 @@ if __name__ == '__main__':
     file ={'img_file': open('test.jpg', 'rb')}
 
     print("画像をサーバーにアップロードします")
-    options = {"car_op": 0, "face_op": 0}
+    options = {"car_op": 1, "face_op": 1}
     res = requests.post(url, files=file, data=options)
     result_dict = json.loads(res.text)
     status = result_dict["ResultSet"]["status"]
